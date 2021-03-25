@@ -1,0 +1,205 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Geral */
+body{
+    font-family: 'Montserrat', sans-serif;
+    background-color: white; 
+}
+
+.row{
+    margin: 0;
+}
+
+.conteiner{
+    padding: 70px 0;
+}
+
+p,li {
+    font-size: 14px;
+}
+
+.header{
+    height: 100px;
+    width: auto;
+    background-color: #171B22;
+    padding: none;
+    margin: none;
+}
+
+#logo{
+    height: 50px;
+    width: 50px;
+}
+
+/* Barra de navegação */
+
+header, .navbar{
+    background-color: #171B22;
+    box-shadow: 0px 2px 2px #171B22;
+}
+
+/* #nav-conteiner{
+    padding-top: 0;
+    padding-bottom: 0;
+}  */
+
+#logo{
+    height: 65px;
+    width: 65px;
+}
+
+.navbar-brand{
+    padding: 0;
+    color: white;
+}
+
+.navbar-brand:hover{
+    color: white;
+}
+
+#navbar-links a{
+ color: white;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link{
+ padding: 1rem .8rem;
+}
+
+/* Corpo */
+
+ main{
+    margin: 100px;
+} 
+
+.jumbotron{
+    text-align: center;
+    background-color: #171B22;
+    color: #ffff;
+    
+}
+
+.my-4 {
+    background-color: #171B22;
+}
+/* Footer */
+
+#logo2{
+    border-radius: 100%;
+    height: 100px;
+    width: 100px;
+}
+
+footer{
+    background-color: #171B22;
+    height: auto;
+    width: auto;
+    padding-top: 40px;
+    color: white;
+}
+
+.social{
+    list-style-type: none;
+    display: flex;
+}
+
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.social a i{
+    transition: color .5s ease;
+    color: white;
+}
+
+#linkedin{
+    margin: 8px 8px 10px 8px;
+}
+
+ #gmail{
+    margin: 8px;
+}
+
+#instagram{
+    margin: 8px;
+}
+
+#github{
+    margin: 8px;
+}
+
+#linkedin a:hover i{
+    color: #0e76a8;
+}
+
+#gmail a:hover i{
+    color: #db4a39;
+}
+
+#instagram a:hover i{
+    color: #E1306C;
+}
+
+#github a:hover i{
+    color: #191970;
+}
+
+/* About Me - Corpo */
+
+.col-md{
+    color: white;
+    font-size: 20px;
+}
+
+#apresentacao{
+    border-radius: 5px;
+    background-color: #171B22;
+    margin-right: 35px;
+}
+#habilidades{
+    border-radius: 5px;
+    margin-left: 35px;
+    background-color: #171B22;
+}
+
+#aboutMe{
+    align-items: center;
+}
+
+.eu{
+    border-radius: 100%;
+    border: 4px solid #171B22;
+    margin-bottom: 30px;
+}
+
+/* Contacts - Corpo */
+
+.contatos{
+    align-items: center;
+    text-align: center;
+    padding: 5%;
+}
+
+#contato{
+    font-size: 30px;
+    color: #171B22;
+    text-decoration: none;
+    margin: 40px;
+}
+
+li{
+    list-style-type: none;
+}
+
+/* corpo projetos */
+
+.col-sm-4 > img {
+    width: 100%;
+}
